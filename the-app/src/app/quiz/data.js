@@ -1,41 +1,4 @@
-// export const quiz = {
-//       totalQuestion:5,
-//       questions:[
-//             { 
-//                   id:1,
-//                   question:"What is the my name",
-//                   answer:["sami","widhi","emiti","ritu"],
-//                   correctAnswer:"widhi"
-//             },
-//             { 
-//                   id:2,
-//                   question:"What is the my qulification",
-//                   answer:["MA","BA","BeD","Diploma"],
-//                   correctAnswer:"m"
-//             },
-//             { 
-//                   id:3,
-//                   question:"What is the my qulification",
-//                   answer:["MA","BA","BeD","Diploma"],
-//                   correctAnswer:"m"
-//             },
-//             { 
-//                   id:4,
-//                   question:"What is the my qulification",
-//                   answer:["MA","BA","BeD","Diploma"],
-//                   correctAnswer:"m"
-//             },
-//             { 
-//                   id:5,
-//                   question:"What is the my qulification",
-//                   answer:["MA","BA","BeD","Diploma"],
-//                   correctAnswer:"m"
-//             },
 
-
-
-//       ]
-// };
 
 
 export const quiz = {
