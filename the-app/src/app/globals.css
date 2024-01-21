@@ -3,4 +3,63 @@
 @tailwind utilities;
 
 *{ padding: 0%;
-box-sizing: border-box;}
+box-sizing: border-box;
+margin: 0%;}
+
+html,body{
+   overflow: hidden;   
+}
+main{
+      padding: 1rem;
+}
+h2{
+  padding-bottom: 2rem; 
+  width: 100;   
+  /* margin-top: 120px; */
+  color: black;
+  font-size: larger1.8rem;
+}
+button{
+
+      padding: 16px 8px;
+      width: 100%;
+      margin-top: 12px;
+      font-size: 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      background-color: red;
+      color: black;
+}
+.bte-disbled{
+      background-color: lightgray;
+}
+li{
+      list-style-type: none;
+      cursor: pointer;
+      margin: 9px;
+      padding: 16px 8px;
+      color: black;
+      border: 1px solid light gray;
+}
+.li-hover:hover{
+      background-color: white;
+      color: azure;
+}
+.li-selected{
+      color: white;
+      background-color: black;
+
+}
+.container{
+      max-width: 740px;
+      width: 100%;
+      margin: auto;
+      padding: 1rem;
+
+}
+.quiz-container{
+      background-color: gray;
+      padding: 1rem;
+      margin-top: 2rem;
+      border-radius: 2px;
+}

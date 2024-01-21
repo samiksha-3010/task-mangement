@@ -1,10 +1,15 @@
-import Image from "next/image";
+
+import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div>
-      <h2>Home</h2>
-    </div>
-  
+ <main>
+     <div className="container">
+      <h2> Quiz App </h2>
+      <Link href='/quiz'>
+          <button>Start Quiz</button>
+        </Link>  
+    </div> 
+ </main>
   );
 }
